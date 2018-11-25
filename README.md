@@ -20,7 +20,7 @@ for an artist and render the following information about each event to the termi
     
 ---------------------------------------------------
 
-node liri.js spotify-this-song '<song name here>'
+node liri.js spotify-this-song "<song name here>"
 
 This will show the following information about the song in user terminal/bash window
 
@@ -52,7 +52,7 @@ We can follow these steps in order to generate a client id and client secret:
     
 --------------------------------------------------------
 
-node liri.js movie-this '<movie name here>'
+node liri.js movie-this "<movie name here>"
 
 This will output the following information to user terminal/bash window:
 
