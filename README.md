@@ -1,4 +1,4 @@
-# liri-node-app
+# liri-node-app https://dinhdothuy.github.io/liri-node-app/
 LIRI is a command line node app that takes in parameters and gives back data.
 LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.
 
