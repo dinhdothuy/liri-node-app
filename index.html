@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<title>Liri Node App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+
+<body>
+
+    <div class = "container">
+        <header>
+            <h1>LIRI NODE APP</h1>
+            <br><br>
+        </header>
+    </div>
+
+    <div class = "container">
+
+        <p>LIRI is a command line node app that takes in parameters and gives back data. LIRI will search Spotify for songs, Bands in Town for concerts, and OMDB for movies.</p>
+        <p>*** What Each Command Should Do:</p>
+        <hr>
+
+        <p><strong>node liri.js concert-this "artist/band name here"</strong></p>
+        <p>This will search the following information about each event to the terminal:</p>
+        <p>* Name of the venue</p>
+        <p>* Venue location</p>
+        <p>* Date of the Event (use moment to format this as "MM/DD/YYYY")</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.55.38 PM.png" style="width:100%" class="w3-margin-bottom">
+        <p>If the user doesn't type an artist/band name</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.56.20 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p><strong>node liri.js spotify-this-song "song name here"</strong></p>
+        <p>This will show the following information about the song in user terminal/bash window</p>
+        <p>* Artist(s)</p>
+        <p>* The song's name</p>
+        <p>* A preview link of the song from Spotify</p>
+        <p>* The album that the song is from</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.56.54 PM.png" style="width:100%" class="w3-margin-bottom">
+        <p>If no song is provided then your program will default to "The Sign" by Ace of Base.</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.57.24 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p><strong>node liri.js movie-this "movie name here"</strong></p>
+        <p>This will output the following information to user terminal/bash window:</p>
+        <p>* Title of the movie.</p>
+        <p>* Year the movie came out.</p>
+        <p>* IMDB Rating of the movie.</p>
+        <p>* Rotten Tomatoes Rating of the movie.</p>
+        <p>* Country where the movie was produced.</p>
+        <p>* Language of the movie.</p>
+        <p>* Plot of the movie.</p>
+        <p>* Actors in the movie.</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.57.48 PM.png" style="width:100%" class="w3-margin-bottom">
+        <p>If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 2.58.17 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p><strong>node liri.js do-what-it-says</strong></p>
+        <p>It should run spotify-this-song for "I Want it That Way," as follows the text in random.txt.</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 3.01.15 PM.png" style="width:100%" class="w3-margin-bottom">
+        <p>Edit the text in random.txt to test out the feature for movie-this and concert-this:</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 3.02.00 PM.png" style="width:100%" class="w3-margin-bottom">
+        <img src="screenshot/Screen Shot 2018-11-25 at 3.03.28 PM.png" style="width:100%" class="w3-margin-bottom">
+        <hr>
+
+        <p>BONUS</p>
+        <p>In addition to logging the data to user terminal/bash window, output the data to a .txt file called log.txt.</p>
+        <p>We can append each command the user run to the log.txt file.</p>
+        <p>It does not overwrite the file each time we run a command.</p>
+        <img src="screenshot/Screen Shot 2018-11-25 at 3.04.26 PM.png" style="width:100%" class="w3-margin-bottom">
+    </div>
+
+</body>
+
+</html>
